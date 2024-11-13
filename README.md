@@ -18,6 +18,28 @@ Before running the program, ensure you have the following installed on your syst
 - **Python 3.x**
 - **PyAudio** for audio recording
 
+## Requirements
+
+To run the Voice Recorder application, make sure the following dependencies are installed:
+
+1. **`pyaudio`**  
+   - Used for audio input and recording. The library provides bindings for PortAudio, a cross-platform audio library.
+   
+2. **`pyautogui`**  
+   - Used to simulate keyboard input and control the Notepad application by typing out the transcribed speech.
+
+3. **`SpeechRecognition`**  
+   - Used to convert speech input into text. The library supports various speech-to-text engines like Google Web Speech API.
+
+4. **`wave`**  
+   - A built-in Python library to handle audio file manipulation and save the recorded audio as a `.wav` file. No installation is required as it comes with Python by default.
+
+5. **`threading`**  
+   - A built-in Python module to allow concurrent execution of multiple tasks like audio recording and GUI updates simultaneously.
+
+6. **`datetime`**  
+   - A built-in Python module to generate timestamps for naming the audio files based on the current date and time.
+
 ## Usage
 - **Start the Application**: Run the Python script to launch the Voice Recorder GUI.
 - **Set Recording Duration**: Enter the duration in seconds for how long the app should record your speech.
