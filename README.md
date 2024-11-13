@@ -2,6 +2,9 @@
 
 ## Overview
 This application allows users to record their speech using a microphone and save it as an audio file (.wav format). The recording continues for the specified duration, and the saved file can be accessed for later use.
+## 🖼 Screenshots
+
+![Screenshot 1](main_window.png)
 
 ## Features
 - **Start/Stop Recording**: Click the "Start Recording" button to begin recording your speech. Click again to stop the recording.
