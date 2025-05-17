@@ -53,7 +53,7 @@ If the application doesn't work properly, check the following:
 - If PyAudio or SpeechRecognition fails, ensure they are properly installed.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE.txt) - see the LICENSE file for details.
 
 ## Acknowledgments
 - This project uses the `PyAudio` library for audio recording.
